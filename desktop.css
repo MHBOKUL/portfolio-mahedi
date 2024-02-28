@@ -1,0 +1,145 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* navbar dising start */
+
+.nav-logo{
+    text-align: left;
+}
+.nav-heading{
+    text-align: right;
+}
+
+.navbar-menu{
+    justify-content:flex-end;
+    flex-direction: row;
+}
+.navbar-menu a{
+   padding: 5px 10px ;
+   margin: 5px;
+   background-color: transparent;
+   transition: transform 0.04s;
+}
+.navbar-menu a:hover{
+    transform: scale(1.1);
+ }
+
+/* navbar dising end */
+
+ /* profile start */
+
+ .top-weather-icon{
+    position: absolute;
+    right: 100px;
+    top: 20px;
+    height: 150px;
+    width: 97px;
+    transition: width 2s transform 2s;
+
+}
+.top-weather-icon:hover{
+   transform: rotate(360deg);
+   width: 140px;
+}
+
+.profile p{
+    color: red;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto 20px auto;
+    margin-bottom: 10px;
+}
+
+.buttom-wather-icon{
+    position: absolute;
+    left: 120px;
+    bottom: 20px;
+    height: 150px;
+    width: 97px;
+    transition: transform 2s;
+}
+
+.buttom-wather-icon:hover{
+   width: 140px;
+
+}
+  /*profile end  */
+
+
+
+/* <!-- about me start --> */
+
+.my-img{
+    margin-top: 10px;
+    
+}
+.my-img img{
+    height: 270px;
+    width: 250px;
+}
+
+.about-me-descr p{
+    text-align: left;
+}
+
+  /* <!-- about me end --> */
+
+  /* <!-- experieance start --> */
+
+  .professional-experience{
+    padding: 1% 5%;
+}
+
+   /* <!-- experieance end --> */
+
+
+      /* achivemtnt start */
+
+      .achivment{
+        padding-right: 50px;
+    }
+    
+    .contact button{
+        width: 150px;
+    }
+    
+    .contact-link{
+        position: relative;
+    }
+    
+    .media-buttons{
+        position: absolute;
+        margin-top: 200px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+         /* achivemtnt end */
+
+
+    /* footer strat */
+
+    .fotter-menu {
+        margin-top: 12px;
+    }
+
+    .fotter-menu a{
+        display: inline;
+        margin: 10px;
+
+    }
+
+
+
+
+      /* footer end */
